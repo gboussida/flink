@@ -103,10 +103,12 @@ under the License.
 		<module>flink-external-resources</module>
 		<module>tools/ci/flink-ci-tools</module>
 	</modules>
-
 	<properties>
-		<sonar.organization>gboussidasonar.organization>
- 		<sonar.host.url>https://sonarcloud.iosonar.host.url>
+ 	<sonar.organization>gboussida</sonar.organization>
+	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>
+	
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<flink.hadoop.version>2.10.2</flink.hadoop.version>
